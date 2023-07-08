@@ -1,0 +1,17 @@
+#about div {
+    margin: 2rem auto;
+    text-align: center;
+    width: 60%;
+}
+
+#about ul {
+    columns: 2;
+    font-size: 1.25rem;
+    gap: 3rem;
+    margin: 2rem 3rem;
+    text-align: left;
+}
+
+#about.detailOrQuote {
+    padding: 1rem 3rem 0;
+}

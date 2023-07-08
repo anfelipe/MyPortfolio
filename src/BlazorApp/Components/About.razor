@@ -1,0 +1,32 @@
+<section class="fullDark" id="about">
+	@*@if (hero is not null)
+	{
+	<img class="background" src="@(hero.Src)" alt="@(hero.Alt)" />
+	}*@
+
+	<h2>About Myself</h2>
+
+	<div>
+		@if (aboutme is null)
+		{ 
+			<p><em>Loading...</em></p>
+		}
+		else
+		{
+			<p class="large">@aboutme.Description</p>
+
+			<hr />
+
+			<ul>
+				@foreach (var skill in aboutme.Skills)
+				{
+					<li key="@skill">@skill</li>
+				}
+			</ul>
+
+			<hr />
+
+			<p class="detailOrQuote">@aboutme.DetailOrQuote</p>
+		}
+	</div>
+</section>

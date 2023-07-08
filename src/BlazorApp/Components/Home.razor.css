@@ -1,0 +1,17 @@
+
+#home .homeInfo {
+    position: absolute;
+    top: 35%;
+    left: 2rem;
+}
+
+#home .homeDown {
+    bottom: 8rem;
+    left: 50%;
+    position: absolute;
+}
+
+    #home .homeDown img {
+        height: 3rem;
+        width: 3rem;
+    }
