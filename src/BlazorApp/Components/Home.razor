@@ -1,0 +1,23 @@
+<section class="dark" id="home">
+	@if (hero is not null)
+	{
+		<img class="background" src="@(hero.Src)" alt="@(hero.Alt)" />
+	}
+
+	<div class="homeInfo">
+		@if (property is null)
+		{
+			<p><em>Loading...</em></p>
+		}
+		else
+		{
+			<h1>@property.Name</h1>
+			<h2>@property.Title</h2>
+		}
+	</div>
+
+	@*<div class="homeDown">
+		<img src="images/down-arrow.svg" alt="scroll down" />
+	</div>*@
+
+</section>

@@ -1,0 +1,12 @@
+[  
+  {
+    "title": "Blazor Web App",
+    "description": "Blazor web app with back-end separated from front-end. Use of Plazi API-Fake for create a CRUD.",
+    "url": "https://github.com/anfelipe/BlazorWebApp"
+  },
+  {
+    "title": "Notes for Git",
+    "description": "Basic information of the most used concepts and commands in Git.",
+    "url": "https://github.com/anfelipe/Notes/tree/main/Git-Github"
+  }
+]

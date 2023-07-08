@@ -1,0 +1,17 @@
+[
+  {
+    "name": "home",
+    "src": "images/dev-coffe.jpg",
+    "alt": "Photo of Nubelson Fernandes in Unsplash"
+  },
+  {
+    "name": "about",
+    "src": "images/about-gray.jpg",
+    "alt": "Photo of Shapelined in Unsplash"
+  },
+  {
+    "name": "portfolio",
+    "src": "images/portfolio.jpg",
+    "alt": "Photo of Andrew Neel in Unsplash"
+  }
+]

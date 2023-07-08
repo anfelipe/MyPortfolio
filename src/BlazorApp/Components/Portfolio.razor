@@ -1,0 +1,32 @@
+<section class="fullDark" id="portfolio">
+	<h2>Portfolio</h2>
+	<div class="portfolio">
+
+		@if (projects is null)
+		{
+			<p><em>Loading...</em></p>
+		}
+		else
+		{
+			<div class="portfolioImg">
+				@if (hero is not null)
+				{
+					<img src="@(hero.Src)" alt="@(hero.Alt)" />
+				}
+			</div>
+			<div class="container">
+				@foreach (var project in projects)
+				{
+					<div class="box" key="@project.Title">
+						<a href="@project.Url" target="_blank" rel="noopener noreferrer">
+							<h3>@project.Title</h3>
+						</a>
+						<p class="small">@project.Description</p>
+					</div>
+				}
+			</div>
+		}
+	</div>
+</section>
+
+

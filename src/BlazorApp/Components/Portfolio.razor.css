@@ -1,0 +1,23 @@
+#portfolio .portfolio {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+}
+
+#portfolio .portfolioImg {
+    align-self: center;
+    max-width: 40%;
+}
+
+    #portfolio .portfolioImg img {
+        object-fit: cover;
+        height: 90%;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+#portfolio h3 {
+    flex-basis: 40px;
+}
