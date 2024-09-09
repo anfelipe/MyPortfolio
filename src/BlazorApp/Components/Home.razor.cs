@@ -17,6 +17,7 @@ namespace BlazorApp.Components
 
         private SiteProperties? property;
         private HeroImage? hero;
+        
         protected override async Task OnInitializedAsync()
         {
             property = await Http.GetFromJsonAsync<SiteProperties>("sample-data/siteproperties.json");
