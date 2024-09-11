@@ -18,15 +18,20 @@
 				@foreach (var project in projects)
 				{
 					<div class="box" key="@project.Title">
-						<a href="@project.Url" target="_blank" rel="noopener noreferrer">
+						<a class="title" href="@project.Url" target="_blank" rel="noopener noreferrer">
 							<h3>@project.Title</h3>
 						</a>
 						<p class="small">@project.Description</p>
+
+						@if(!string.IsNullOrEmpty(project.Website)){
+							<a href="@project.Website" class="text-decoration-none icons">
+								<Icon Name="IconName.Link45Deg" />
+								Web Site						
+							</a>
+						}						
 					</div>
 				}
 			</div>
 		}
 	</div>
 </section>
-
-
