@@ -2,16 +2,19 @@
   {
     "title": "Blazor Web App",
     "description": "Blazor web app with back-end separated from front-end. Use of Plazi API-Fake for create a CRUD.",
-    "url": "https://github.com/anfelipe/BlazorWebApp"
+    "url": "https://github.com/anfelipe/BlazorWebApp",
+    "website": ""
   },
   {
     "title": "Notes for Git",
     "description": "Basic information of the most used concepts and commands in Git.",
-    "url": "https://github.com/anfelipe/Notes/tree/main/Git-Github"
+    "url": "https://github.com/anfelipe/Notes/tree/main/Git-Github",
+    "website": ""
   },
   {
     "title": "Colombian Site - API",
-    "description": "Information about Colombia like Departments, cities, tourism, population and more things of interest.",
-    "url": "https://github.com/anfelipe/api-colombia-next"
+    "description": "Information about Colombia like departments, cities, tourism, population and more things of interest.",
+    "url": "https://github.com/anfelipe/api-colombia-next",
+    "website": "https://api-colombia-next.vercel.app/"
   }
 ]

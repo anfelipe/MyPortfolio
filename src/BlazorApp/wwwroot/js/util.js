@@ -14,7 +14,7 @@ const scrollHandler = () => {
     let hPortfolio = document.getElementById('hportfolio');
     let hContact = document.getElementById('hcontact');
 
-    if (home.offsetTop) return;
+    if (home != null && home.offsetTop) return;
 
     /*positions*/
     var doc = document.documentElement;
