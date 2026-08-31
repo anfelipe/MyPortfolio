@@ -1,9 +1,15 @@
-[  
+[
   {
     "title": "Blazor Web App",
     "description": "Blazor web app with back-end separated from front-end. Use of Plazi API-Fake for create a CRUD.",
     "url": "https://github.com/anfelipe/BlazorWebApp",
     "website": ""
+  },
+  {
+    "title": "Blazor Notes",
+    "description": "Blazor Server app, from DevTalles course with clean architecture and authentication.",
+    "url": "https://github.com/anfelipe/BlazorTechNotes",
+    "website": "" 
   },
   {
     "title": "Notes for Git",
